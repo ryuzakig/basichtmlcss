@@ -1,0 +1,24 @@
+$contenedor: 1150px; // 970px
+$espaciado: 16px;
+$padding: 10px;
+$columnas: 12;
+    // Formula: (target / content) x 100
+.contenedor {
+  max-width: $contenedor;
+  margin: 0 auto;
+  .fila {
+    clear: both;
+    width: 100%;
+
+    @for $i from 1 through $columnas {
+      .col#{$i} {
+        float: left;
+        margin: $espaciado $espaciado/2 0 $espaciado/2;
+        padding: $padding;
+        width: $contenedor/($columnas/$i) - $espaciado - $padding*2;
+        // width: (($contenedor/($columnas/$i) - $espaciado - $padding*2) / $contenedor) * 100%;
+        
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html, body{
+	height: 100%;
+}
+body{
+	font-size: 1em;
+	font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Oswald', sans-serif;
+}
+h1{
+	font-size: 4em;
+}
+small, p{
+	font-weight: 300;
+}
+small{
+	font-size: 2em;
+
+}
+ul{
+	list-style: none;
+}
+li{
+	display: inline-block;
+}
+header{
+	background-color: #03a9f4;
+}

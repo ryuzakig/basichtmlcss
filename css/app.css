@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%; }
+
+body {
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif; }
+
+h1 {
+  font-size: 4em; }
+
+small, p {
+  font-weight: 300; }
+
+small {
+  font-size: 2em; }
+
+ul {
+  list-style: none; }
+
+li {
+  display: inline-block; }
+
+header {
+  background-color: #03a9f4; }
+
+.contenedor {
+  max-width: 1150px;
+  margin: 0 auto; }
+  .contenedor .fila {
+    clear: both;
+    width: 100%; }
+    .contenedor .fila .col1 {
+      float: left;
+      margin: 16px 8px 0 8px;
+      padding: 10px;
+      width: 59.83333px; }
+    .contenedor .fila .col2 {
+      float: left;
+      margin: 16px 8px 0 8px;
+      padding: 10px;
+      width: 155.66667px; }
+    .contenedor .fila .col3 {
+      float: left;
+      margin: 16px 8px 0 8px;
+      padding: 10px;
+      width: 251.5px; }
+    .contenedor .fila .col4 {
+      float: left;
+      margin: 16px 8px 0 8px;
+      padding: 10px;
+      width: 347.33333px; }
+    .contenedor .fila .col5 {
+      float: left;
+      margin: 16px 8px 0 8px;
+      padding: 10px;
+      width: 443.16667px; }
+    .contenedor .fila .col6 {
+      float: left;
+      margin: 16px 8px 0 8px;
+      padding: 10px;
+      width: 539px; }
+    .contenedor .fila .col7 {
+      float: left;
+      margin: 16px 8px 0 8px;
+      padding: 10px;
+      width: 634.83333px; }
+    .contenedor .fila .col8 {
+      float: left;
+      margin: 16px 8px 0 8px;
+      padding: 10px;
+      width: 730.66667px; }
+    .contenedor .fila .col9 {
+      float: left;
+      margin: 16px 8px 0 8px;
+      padding: 10px;
+      width: 826.5px; }
+    .contenedor .fila .col10 {
+      float: left;
+      margin: 16px 8px 0 8px;
+      padding: 10px;
+      width: 922.33333px; }
+    .contenedor .fila .col11 {
+      float: left;
+      margin: 16px 8px 0 8px;
+      padding: 10px;
+      width: 1018.16667px; }
+    .contenedor .fila .col12 {
+      float: left;
+      margin: 16px 8px 0 8px;
+      padding: 10px;
+      width: 1114px; }
+
+nav {
+  padding: 20px; }
+
+ul {
+  overflow: hidden; }
+
+li {
+  float: right;
+  padding: 10px; }
+
+li:first-child {
+  float: left; }
+
+a:hover {
+  color: blue; }
+
+.intro {
+  color: #fff;
+  padding: 40px;
+  text-align: center; }
+
+.btn {
+  display: block;
+  background-color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  width: 150px;
+  margin: 10px auto;
+  color: #000;
+  font-size: 1.5em; }
+
+.pupuseria img {
+  width: 100%;
+  height: 229px; }
+
+.pupuseria .info {
+  margin-top: -4px;
+  padding: 10px;
+  background-color: #ffeb3b; }
+
+.pupuseria .info h3 {
+  font-size: 1.5em;
+  padding: 5px; }
+
+.pupuseria .info p {
+  font-size: 1.2em;
+  padding: 5px;
+  line-height: 1.5em; }
+
+.buscador {
+  padding: 30px;
+  text-align: center;
+  background-color: #3f51b5;
+  color: #fff; }
+  .buscador h2 {
+    font-weight: 300;
+    letter-spacing: 0.08em; }
+  .buscador input {
+    width: 50%;
+    height: 30px; }
+  .buscador button {
+    height: 30px;
+    width: 100px;
+    margin-left: -4px; }
+
+footer {
+  clear: both;
+  background-color: #03a9f4;
+  padding: 20px;
+  text-align: center;
+  color: #fff; }
+
+/*# sourceMappingURL=app.css.map */
